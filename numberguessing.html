@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		var rand = Math.floor (Math.random() *10+1);
+		var enterNumber;
+
+		function checkNumber(num1) {
+			enterNumber = window.prompt("Enter Your Number");
+			if(enterNumber == rand) {
+				alert("Congratualtations you are right!!");
+			} 
+		}
+
+		enterNumber = window.prompt("Enter your number");
+		while(enterNumber!= rand) {
+			checkNumber(enterNumber);
+		}
+
+
+
+
+		// function Check(n1,n2)
+
+		// while (enterNumber != rand) {
+		// 	enterNumber = window.prompt("Enter Your Number") 
+		// }
+
+		// if (enterNumber == rand) { 
+		// 	alert("CONGRATULATIONS! You Guessed It RIGHT!")
+		// }
+
+	</script>
+</body>
+</html>
